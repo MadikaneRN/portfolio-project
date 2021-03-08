@@ -1,9 +1,11 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar.js";
 
 function App() {
   return (
-  <h2>Hello Ntsikelelo</h2>
+  <Navbar/>  
+
   );
 }
 
